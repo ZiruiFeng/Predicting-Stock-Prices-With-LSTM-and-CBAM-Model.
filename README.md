@@ -82,4 +82,4 @@ Base Model + CBAM
 
 
 # Conclusion
-Comparing the RMSE of four models, CNN-LSTM with embedded Channel Attention Module has the lowest RMSE (0.00009550479312152179). Although we aim to use the CNN-LSTM-CBMA model to learn the fluctuation of stock price to achieve a better prediction performance, the model is not really sensitive to price fluctuations. This phenomenon is might due to the fact that CBAM is more suitable for image classification field.
+Comparing the RMSE of four models, CNN-LSTM with embedded Channel Attention Module has the lowest RMSE (0.00009550479312152179). Although we aim to use the CNN-LSTM-CBMA model to learn the fluctuation of stock price to achieve a better prediction performance, the model is not really sensitive to price fluctuations. This phenomenon is might due to the fact that the CBAM mechanism seems to be more suitable for the image field to improve the accuracy of target detection and object classification.
