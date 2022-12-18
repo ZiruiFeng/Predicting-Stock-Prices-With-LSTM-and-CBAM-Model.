@@ -8,9 +8,13 @@ The goal of this project is to develop a prediction model, Long Short-Term Memor
 
 # Repository Description and Code Structures
 Datasets: Upload datasets we used
+
 Dataloder: Prepare datasets into the test/train splitting form based on the input features
+
 model.py: Construct models including LSTM model, LSTM with ECA model, LSTM with SE model, LSTM with CBAM model and LSTM with HW model.
+
 test.py: Test models and draw prediction graphs based on dataset
+
 train.py: Train models based on dataset
 
 # Example Commands
