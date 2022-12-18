@@ -5,3 +5,11 @@ Members: Zirui(Frank) Feng, Zongjian(James)
 
 # Project Description
 
+# Repository Description and Code Structures
+
+# Example Commands
+
+# Results
+
+# Conclusion
+
