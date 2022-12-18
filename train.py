@@ -3,13 +3,6 @@ from dataloader import StockDataset
 from torch.utils.data import DataLoader
 from model import *
 import torch.nn as nn
-import os
-
-if not os.path.exists("result_picture"):
-    os.makedirs("result_picture")
-
-if not os.path.exists("best_model"):
-    os.makedirs("best_model")
 
 def parse_args():
     import argparse
