@@ -26,7 +26,7 @@ def parse_args():
 def test():
     args = parse_args()
 
-    test_data = StockDataset('dataset/data.csv', 5, is_test=True)
+    test_data = StockDataset('datasets/data.csv', 5, is_test=True)
     print_step = 10
 
     test_loader = DataLoader(test_data, batch_size=256, shuffle=False, num_workers=2)
