@@ -23,8 +23,8 @@ def parse_args():
 def train():
     args = parse_args()
 
-    train_data = StockDataset('dataset/data.csv', 5, is_test=False)
-    test_data = StockDataset('dataset/data.csv', 5, is_test=True)
+    train_data = StockDataset('datasets/data.csv', 5, is_test=False)
+    test_data = StockDataset('datasets/data.csv', 5, is_test=True)
 
     train_loader = DataLoader(train_data, batch_size=256, shuffle=False, num_workers=2)
     test_loader = DataLoader(test_data, batch_size=256, shuffle=False, num_workers=2)
