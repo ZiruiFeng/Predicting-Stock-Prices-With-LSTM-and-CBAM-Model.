@@ -6,7 +6,14 @@ from model import *
 import torch.nn as nn
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as 
+import os
+
+if not os.path.exists("result_picture"):
+    os.makedirs("result_picture")
+
+if not os.path.exists("best_model"):
+    os.makedirs("best_model")
 
 def parse_args():
     import argparse
